@@ -1,0 +1,22 @@
+spring:
+ datasource:
+   driver-class-name: com.mysql.jdbc.Driver
+   username: root
+   password: 123456
+   url: jdbc:mysql://172.18.104.46:3306/sell?characterEncoding=utf-8&useSSL=false
+ jpa:
+   show-sql: true
+
+server:
+  context-path: /sell
+
+
+wechat:
+  mpAppId: wxc5e0e059ff7459bd
+  mpAppSecret: a58f5be3e514796e50f277f095143231
+
+
+projectUrl:
+  wechatMpAuthorize: http://hdz.natapp1.cc
+  wechatOpenAuthorize: http://hdz.natapp1.cc
+  sell: http://hdz.natapp1.cc
